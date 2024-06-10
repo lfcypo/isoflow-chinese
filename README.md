@@ -1,15 +1,15 @@
 ![readme-header](https://user-images.githubusercontent.com/1769678/223572353-788d5d38-cd28-40fa-96cd-9d29226f7e4b.png)
 
 <h4 align="center">
-  <a href="https://isoflow.io/app">Online playground</a> |
-  <a href="https://isoflow.io/docs">Developer docs</a> |
+  <a href="https://isoflow.io/app">在线编辑器</a> |
+  <a href="https://isoflow.io/docs">开发文档</a> |
   <a href="https://github.com/markmanx/isoflow">Github</a> |
   <a href="https://discord.gg/QYPkvZth7D">Discord</a> |
-  <a href="https://hub.docker.com/r/markmanx/isoflow/tags">Docker image</a>
+  <a href="https://hub.docker.com/r/markmanx/isoflow/tags">Docker 镜像</a>
 </h4>
 
 <div align="center">
-  <h1>An open-source React library for drawing network diagrams.</h2>
+  <h1>一个用于绘制网络图的开源React库</h1>
 </div>
 
 <div align="center">
@@ -19,47 +19,45 @@
 
 </div>
 
-## Key Features
+## 中文化
 
-- **Highly visual drag and drop interface:** Express your architecture with icons, regions and connectors.
-- **Customizable:** Easily extend Isoflow with your own icons.
-- **Export options:** Export diagrams as code or images.
+中文化 By ypolfc@github.com <br/>
+Translation By ypolfc@github.com
 
-## Roadmap
-- [ ] Keyboard & mouse shortcuts (undo / redo, copy / paste, zoom in / out)
+*以下文档仅翻译关键信息*
+
+
+## 关键特性
+
+- **高度可视化的拖放界面:** 用图标、区域和连接器来表达你的架构。
+- **可定制:** 轻松扩展Isoflow与您自己的图标。
+- **导出选项:** 将图表导出为代码或图像。
+
+## 功能计划
+- [ ] 键盘 & 鼠标快捷键 (撤销 / 重做, 复制 / 粘贴, 放大 / 缩小)
 
 🚢 Shipped
-- [x] Export options
-- [x] Docker image
-- [x] Modifiable connector segments
-- [x] Display labels over connectors
-- [x] Layer re-ordering (bring forward / send to back)
-- [x] Allow custom colours
-- [x] Export diagrams as images
-- [x] Allow main menu to be customised
-- [x] Fit diagram to viewport
-- [x] Pan & zoom controls
-- [x] Nodes, connectors & groups
-- [x] Local storage support
-- [x] Icon support for AWS, GCP, Azure, K8S & generic network hardware (e.g. server, database)
-- [x] Event callbacks
-- [x] Documentation site
+- [x] 导出选项
+- [x] Docker 容器支持
+- [x] 可修改的连接器段
+- [x] 在连接器上显示标签
+- [x] 层重新排序(前送/后送)
+- [x] 允许自定义颜色
+- [x] 将图表导出为图像
+- [x] 允许自定义主菜单
+- [x] 将图表匹配到视口大小
+- [x] 平移和缩放控制
+- [x] 节点、连接器和组
+- [x] 本地存储支持
+- [x] 图标支持AWS, GCP, Azure, K8S和通用网络硬件(如服务器，数据库)
+- [x] 事件回调
+- [x] 在线文档
 
-## Quick start
+## 快速上手
 
-Install the Isoflow editor [npm package](https://www.npmjs.com/package/isoflow) and isopacks (icon packages):
+安装 Isoflow [npm package](https://www.npmjs.com/package/isoflow) 和 isopacks(图标包):
 
 - `npm install isoflow`
 - `npm install @isoflow/isopacks`
 
-For more information, see our [documentation](https://v2.isoflow.io/docs).
-
-## CodeSandbox demo
-Demo the latest version of Isoflow on [CodeSandbox](https://codesandbox.io/p/sandbox/github/markmanx/isoflow).  The sandbox will always be synced with the `main` branch on the Github repo, and also includes the latest version of the developer documentation.
-
-## Professional support
-Isoflow is free to use for personal and commercial projects.  If you're using Isoflow commercially and require support, please get in touch.  We are also looking for project sponsors.
-
-## Contributing
-- Isoflow is actively being worked on.  Missing something or found a bug? Report it [here](https://github.com/markmanx/isoflow/issues) or join our [Discord server](https://discord.gg/QYPkvZth7D).
-- Want to contribute? See [good first issues](https://github.com/markmanx/isoflow/contribute).
+欲了解更多信息，请参阅我们的 [在线文档](https://v2.isoflow.io/docs).
