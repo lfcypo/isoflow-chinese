@@ -125,7 +125,7 @@ export function useUiStateStore<T>(selector: (state: UiStateStore) => T) {
   const store = useContext(UiStateContext);
 
   if (store === null) {
-    throw new Error('Missing provider in the tree');
+    throw new Error('树中缺少提供程序');
   }
 
   const value = useStore(store, selector);

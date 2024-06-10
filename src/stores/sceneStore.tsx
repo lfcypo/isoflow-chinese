@@ -46,7 +46,7 @@ export function useSceneStore<T>(
   const store = useContext(SceneContext);
 
   if (store === null) {
-    throw new Error('Missing provider in the tree');
+    throw new Error('树中缺少提供程序');
   }
 
   const value = useStore(store, selector, equalityFn);

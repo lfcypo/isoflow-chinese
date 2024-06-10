@@ -25,11 +25,11 @@ export const DebugUtils = () => {
       }}
     >
       <LineItem
-        title="Mouse"
+        title="指针坐标"
         value={`${uiState.mouse.position.tile.x}, ${uiState.mouse.position.tile.y}`}
       />
       <LineItem
-        title="Mouse down"
+        title="指针按键"
         value={
           uiState.mouse.mousedown
             ? `${uiState.mouse.mousedown.tile.x}, ${uiState.mouse.mousedown.tile.y}`
@@ -37,7 +37,7 @@ export const DebugUtils = () => {
         }
       />
       <LineItem
-        title="Mouse delta"
+        title="指针位移量"
         value={
           uiState.mouse.delta
             ? `${uiState.mouse.delta.tile.x}, ${uiState.mouse.delta.tile.y}`
@@ -45,20 +45,20 @@ export const DebugUtils = () => {
         }
       />
       <LineItem
-        title="Scroll"
+        title="滚轮"
         value={`${uiState.scroll.position.x}, ${uiState.scroll.position.y}`}
       />
-      <LineItem title="Zoom" value={uiState.zoom} />
+      <LineItem title="变焦" value={uiState.zoom} />
       <LineItem
-        title="Size"
+        title="视口大小"
         value={`${rendererSize.width}, ${rendererSize.height}`}
       />
       <LineItem
-        title="Scene info"
-        value={`${scene.items.length} items in scene`}
+        title="图形对象"
+        value={`共 ${scene.items.length} 个元素`}
       />
-      <LineItem title="Mode" value={uiState.mode.type} />
-      <LineItem title="Mode data" value={JSON.stringify(uiState.mode)} />
+      <LineItem title="模式" value={uiState.mode.type} />
+      <LineItem title="模式参数" value={JSON.stringify(uiState.mode)} />
     </Box>
   );
 };

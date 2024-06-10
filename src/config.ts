@@ -34,7 +34,7 @@ export const DEFAULT_FONT_FAMILY = 'Roboto, Arial, sans-serif';
 export const VIEW_DEFAULTS: Required<
   Omit<View, 'id' | 'description' | 'lastUpdated'>
 > = {
-  name: 'Untitled view',
+  name: '未命名视图',
   items: [],
   connectors: [],
   rectangles: [],
@@ -59,7 +59,7 @@ export const CONNECTOR_SEARCH_OFFSET = { x: 1, y: 1 };
 export const TEXTBOX_DEFAULTS: Required<Omit<TextBox, 'id' | 'tile'>> = {
   orientation: 'X',
   fontSize: 0.6,
-  content: 'Text'
+  content: '编辑文字...'
 };
 
 export const TEXTBOX_PADDING = 0.2;
@@ -75,7 +75,7 @@ export const MAX_ZOOM = 1;
 export const TRANSFORM_ANCHOR_SIZE = 30;
 export const TRANSFORM_CONTROLS_COLOR = '#0392ff';
 export const INITIAL_DATA: InitialData = {
-  title: 'Untitled',
+  title: '未命名',
   version: '',
   icons: [],
   colors: [DEFAULT_COLOR],
@@ -106,7 +106,7 @@ export const MAIN_MENU_OPTIONS: MainMenuOptions = [
 
 export const DEFAULT_ICON: Icon = {
   id: 'default',
-  name: 'block',
+  name: '元素',
   isIsometric: true,
   url: ''
 };

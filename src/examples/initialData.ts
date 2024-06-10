@@ -49,154 +49,154 @@ export const colors: Colors = [
 export const icons: Icons = isopacks;
 
 export const initialData: InitialData = {
-  title: 'Airport management software system',
+  title: '机场管理软件系统',
   icons,
   colors,
   items: [
     {
       id: 'item1',
-      name: 'Airport Operational Database',
+      name: '机场运营数据库',
       icon: 'storage',
       description:
-        '<p>Each airport has its own central database that stores and updates all necessary data regarding daily flights, seasonal schedules, available resources, and other flight-related information, like billing data and flight fees. AODB is a key feature for the functioning of an airport.</p><p><br></p><p>This database is connected to the rest of the airport modules: <em>airport information systems, revenue management systems, and air traffic management</em>.</p><p><br></p><p>The system can supply different information for different segments of users: passengers, airport staff, crew, or members of specific departments, authorities, business partners, or police.</p><p><br></p><p>AODB represents the information on a graphical display.</p><p><br></p><p><strong>AODB functions include:</strong></p><p>- Reference-data processing</p><p>- Seasonal scheduling</p><p>- Daily flight schedule processing</p><p>- Processing of payments</p>'
+        '<p>每个机场都有自己的中央数据库，用于存储和更新有关每日航班、季节性时刻表、可用资源和其他航班相关信息（如计费数据和航班费用）的所有必要数据。AODB是机场运作的关键特征。</p><p><br></p><p>此数据库连接到其余的机场模块：<em>机场信息系统、收入管理系统和空中交通管理系统</em>.</p><p><br></p><p>该系统可以为不同的用户群体提供不同的信息：乘客、机场工作人员、机组人员或特定部门、合作伙伴或警察局。</p><p><br></p><p>AODB表示图形显示上的信息。</p><p><br></p><p><strong>AODB函数包括：</strong></p><p>- 参考数据处理</p><p>- 季节性调度</p><p>- 每日航班时刻表处理</p><p>- 付款处理</p>'
     },
     {
       id: 'bc6fdded-a090-4eae-b1fe-fe0ee0fd1c92',
-      name: 'Landside operations',
+      name: '陆侧作业',
       icon: 'office',
       description:
-        '<p>This subsystem is aimed at serving passengers and maintenance of terminal buildings, parking facilities, and vehicular traffic circular drives. Passenger operations include baggage handling and tagging.</p>'
+        '<p>该子系统为乘客提供服务，并维护航站楼、停车设施和车辆交通。客运业务包括行李处理和贴标签。</p>'
     },
     {
       id: 'e0462e01-8acd-461c-89a2-42c6a04d5f7f',
-      name: 'Passenger facilitation services',
+      name: '旅客便利服务',
       icon: 'user',
       description:
-        '<p>Includes passenger processing (check-in, boarding, border control) and baggage handling (tagging, dropping and handling). They follow passengers to the shuttle buses to carry them to their flights. Arrival operations include boarding control and baggage handling.</p>'
+        '<p>包括旅客处理（办理登机手续、登机、边境管制）和行李处理（贴标签、托运和处理）。服务人员跟着乘客上班车，把他们送到航班上。到达操作包括登机控制和行李处理。</p>'
     },
     {
       id: 'a147b06a-324a-47ab-9e16-ac9101aa3d28',
-      name: 'Border control (customs and security services)',
+      name: '边境管制（海关和安全服务）',
       icon: 'block',
       description:
-        '<p>In airports, security services usually unite perimeter security, terminal security, and border controls. These services require biometric authentication and integration into government systems to allow a customs officer to view the status of a passenger.</p>'
+        '<p>在机场，安全服务通常包括周边安全、终端安全和边境控制。这些服务需要生物识别认证并集成到政府系统中，以允许海关官员查看乘客的状态。</p>'
     },
     {
       id: '4a27ed88-abf2-448b-af07-5d2b6ebdb67f',
-      name: 'Common use services (self-service check-in systems)',
+      name: '通用服务（自助值机系统）',
       icon: 'block',
       description:
-        '<p>An airport must ensure smooth passenger flow. Various&nbsp;digital self-services, like check-in kiosks or automated self-service gates, make it happen. Self-service options, especially check-in kiosks, remain popular. Worldwide in 2018, passengers used kiosks to check themselves in&nbsp;88 percent of the time.</p>'
+        '<p>机场必须保证客流畅通。各种各样的&nbsp;数字自助服务：值机亭、自动自助门。自助服务选项，尤其是值机亭，仍然很受欢迎。</p>'
     },
     {
       id: 'c54ab120-44d2-46d2-9fc1-efd83ab67307',
-      name: 'Baggage handling',
+      name: '行李处理',
       icon: 'block',
       description:
-        '<p>A passenger must check a bag before it’s loaded on the aircraft. The time the baggage is loaded is displayed and tracked until the destination is reached and the bag is returned to the owners.</p>'
+        '<p>乘客在行李上飞机前必须先托运。显示并跟踪行李装载的时间，直到到达目的地并将行李归还给失主。</p>'
     },
     {
       id: 'a2d5f2c4-ea64-4b3c-8c82-d50be88adb05',
-      name: 'Terminal management systems',
+      name: '终端管理系统',
       icon: 'function-module',
       description:
-        '<p>Includes maintenance and monitoring of management systems for assets, buildings, electrical grids, environmental systems, and vertical transportation organization. It also facilitates staff communications and management.</p>'
+        '<p>包括资产、建筑物、电网、环境系统和垂直运输组织的管理系统的维护和监控。它还促进了工作人员的沟通和管理。</p>'
     },
     {
       id: '040dfb11-f920-48cf-bf96-64234db1b7e8',
-      name: 'Maintenance and monitoring',
+      name: '维护和监控',
       icon: 'block'
     },
     {
       id: 'a71d7911-261d-4b6e-895a-27765baf0403',
-      name: 'Resource management',
+      name: '资源管理',
       icon: 'block'
     },
     {
       id: '67895813-ac6f-4dd4-9ae2-e994e9a5aa09',
-      name: 'Staff management',
+      name: '员工管理',
       icon: 'block',
       description:
-        '<p>Staff modules provide the necessary information about ongoing processes in the airport, such as data on flights (in ICAO or UTC formats) and other important events to keep responsible staff members updated. Information is distributed through the airport radio system, or displayed on a PC connected via the airport LAN or on mobile devices.</p>'
+        '<p>工作人员模块提供有关机场正在进行的进程的必要信息，例如航班数据(采用国际民航组织或联合技术标准格式)和其他重要事件，以便使负责的工作人员随时了解最新情况。信息通过机场无线电系统分发，或显示在通过机场局域网连接的个人电脑或移动设备上。</p>'
     },
     {
       id: 'cf6b6e6e-f491-4547-b4ac-c5eecba8464a',
-      name: 'Information management',
+      name: '信息管理',
       icon: 'queue',
       description:
-        '<p>This subsystem is responsible for the collection and distribution of daily flight information, storing of seasonal and arrival/departure information, as well as the connection with airlines.</p>'
+        '<p>该子系统负责日常航班信息的采集和分发，季节和到达出发信息的存储，以及与航空公司的连接。</p>'
     },
     {
       id: '00ff4dc0-09f9-4932-aa90-6c207da2989b',
-      name: 'Public address (PA) systems',
+      name: '公共广播(PA)系统',
       icon: 'block',
       description:
-        '<p>Informs passengers and airport staff about any changes and processes of importance, for instance, gates, times of arrival, calls, and alerts. Also, information can be communicated to pilots, aircraft staff, crew, etc. PA systems usually include voice messages broadcasted through loudspeakers.</p>'
+        '<p>通知乘客和机场工作人员任何重要的变化和过程，例如登机口、到达时间、电话和警报。此外，信息可以传达给飞行员，飞机工作人员，机组人员等。扩音系统通常包括通过扬声器广播的语音信息。</p>'
     },
     {
       id: '791abb72-5481-4713-88a8-a9fe51cb5408',
-      name: 'Flight Information Display Systems (FIDS)',
+      name: '飞行情报显示系统(FIDS)',
       icon: 'block',
       description:
-        '<p>Exhibits the status of boarding, gates, aircraft, flight number, and other flight details.&nbsp;A computer controls the screens that are connected to the data management systems and displays up-to-date information about flights in real time. Some airports have a digital FIDS in the form of apps or on their websites. Also, the displays may show other public information such as the weather, news, safety messages, menus, and advertising. Airports can choose the type, languages, and means of entering the information, whether it be manually or loaded from a central database.</p>'
+        '<p>显示登机状态、登机口、飞机、航班号和其他航班详细信息。计算机控制连接到数据管理系统的屏幕，实时显示有关航班的最新信息。一些机场以应用程序的形式或在其网站上设置了数字机场识别系统。此外，显示器还可以显示其他公共信息，如天气、新闻、安全信息、菜单和广告。机场可以选择输入信息的类型、语言和方式，无论是手动输入还是从中央数据库加载。</p>'
     },
     {
       id: 'fe621de2-793b-42f9-968e-4cac33b8d5fe',
-      name: 'Automatic Terminal Information Service (ATIS)',
+      name: '自动码头信息服务(ATIS)',
       icon: 'block',
       description:
-        '<p>Broadcasts the weather reports, the condition of the runway, or other local information for pilots and crews.</p><p><br></p><p>Some airport software vendors offer off-the-shelf solutions to facilitate particular tasks, like maintenance, or airport operations. However, most of them provide integrated systems that comprise modules for several operations.</p>'
+        '<p>向飞行员和机组人员广播天气报告、跑道状况或其他当地信息。<p><br><p><p>一些机场软件供应商提供现成的解决方案来促进特定的任务，如维护或机场运营。然而，它们中的大多数都提供集成系统，包括用于多种操作的模块。</p>'
     },
     {
       id: '24d4a8b3-6056-4c3f-8f0b-143683509438',
-      name: 'Airside operations',
+      name: '登机区操作',
       icon: 'plane',
       description:
-        '<p>Includes systems to handle aircraft landing and navigation, airport traffic management, runway management, and ground handling safety.</p>'
+        '<p>包括处理飞机着陆和导航、机场交通管理、跑道管理和地面处理安全的系统。</p>'
     },
     {
       id: '2ac34480-95cc-4b01-8efd-683ec46fcd68',
-      name: 'Apron handling',
+      name: '地勤',
       icon: 'block',
       description:
-        '<p>Apron (or ground handling) deals with aircraft servicing. This includes passenger boarding and guidance, cargo and mail loading, and apron services. Apron services include aircraft guiding, cleaning, drainage, deicing, catering, and fueling. At this stage, the software facilitates dealing with information about the weight of the baggage and cargo load, number of passengers, boarding bridges parking, and the ground services that must be supplied to the aircraft. By entering this information into the system, their costs can be calculated and invoiced through the billing system.</p>'
+        '<p>地勤负责飞机维修。这包括乘客登机和引导、货物和邮件装载以及停机坪服务。停机坪服务包括飞机引导、清洁、排水、除冰、餐饮和加油。在这一阶段，该软件有助于处理有关行李重量和货物负荷、乘客数量、登机桥停车以及必须向飞机提供的地面服务等信息。通过将这些信息输入到系统中，他们的成本就可以通过计费系统计算出来并开具发票。</p>'
     },
     {
       id: '9172d115-93ae-4e89-bd75-4979b7f8a49a',
-      name: 'ATC Tower',
+      name: 'ATC空中交通管制塔',
       icon: 'block',
       description:
-        '<p>The Air Traffic Control Tower is a structure that delivers air and ground control of the aircraft. It ensures safety by guiding and navigating the vehicles and aircraft. It is performed by way of visual signaling, radar, and radio communication in the air and on the ground. The main focus of the tower is to make sure that all aircraft have been assigned to the right place, that passengers aren’t at risk, and that the aircraft will have a suitable passenger boarding bridge allocated on the apron.</p><p><br></p><p>The ATC tower has a control room that serves as a channel between landside (terminal) and airside operations in airports. The control room personnel are tasked with ensuring the security and safety of the passengers as well as ground handling. Usually, a control room has CCTV monitors and air traffic control systems that maintain the order in the terminal and on the apron.</p>'
+        '<p>空中交通管制塔是一种对飞机进行空中和地面控制的结构。它通过引导和导航车辆和飞机来确保安全。它是通过空中和地面的视觉信号、雷达和无线电通信来实现的。塔台的主要重点是确保所有飞机都被分配到正确的地方，乘客不会有危险，飞机将在停机坪上分配一个合适的乘客登机桥。</p>< br></p><p>空管塔台有一个控制室，作为机场陆侧(航站楼)和空侧操作之间的通道。控制室人员的任务是确保乘客的安全和安全以及地面处理。通常，控制室有闭路电视监视器和空中交通管制系统，以维持航站楼和停机坪的秩序。</p>'
     },
     {
       id: '2db4a232-2cf3-4277-9cd4-e2c0a35a4eac',
-      name: 'Aeronautical Fixed Telecommunication Network (AFTN) Systems',
+      name: '航空固定电信网络(AFTN)系统',
       icon: 'block',
       description:
-        '<p>AFTN systems handle communication and exchange of data including navigation services. Usually, airports exchange traffic environment messages, safety messages, information about the weather, geographic material, disruptions, etc. They serve as communication between airports and aircraft.</p><p><br></p><p>Software for aeronautical telecommunications stores flight plans and flight information, entered in ICAO format and UTC. The information stored can be used for planning and statistical purposes. For airports, it’s important to understand the aircraft type and its weight to assign it to the right place on the runway. AFTN systems hold the following information:</p><p><br></p><p>- Aircraft registration</p><p>- Runway used</p><p>- Actual time of landing and departure</p><p>- Number of circuits</p><p>- Number and type of approaches</p><p>- New estimates of arrival and departure</p><p>- New flight information</p><p><br></p><p>Air traffic management is performed from an ATC tower.</p>'
+        '<p>AFTN系统处理包括导航服务在内的通信和数据交换。通常，机场交换交通环境信息、安全信息、有关天气、地理材料、中断等信息。它们是机场和飞机之间的通讯工具。<p><br><p><p> <p>航空通信软件存储飞行计划和飞行信息，以国际民航组织格式和UTC格式输入。存储的信息可用于计划和统计目的。对于机场来说，重要的是要了解飞机的类型和重量，以便将其分配到跑道上的正确位置。AFTN系统保存以下信息:<p><p><br><p><p>-飞机登记<p><p>-跑道使用<p><p>-着陆和起飞的实际时间<p><p>-电路数量<p><p>-进近的数量和类型<p><p>-到达和起飞的新估计<p><p>-新的航班信息<p><p><br><p><p>空中交通管理是从ATC塔台执行的。</p>'
     },
     {
       id: 'b46088d6-7bd4-4ccf-9d35-cf56a891d869',
-      name: 'Invoicing and billing',
+      name: '发票和开票',
       icon: 'paymentcard',
       description:
-        '<p>Each flight an airport handles generates a defined revenue for the airport paid by the airline operating the aircraft. Aeronautical invoicing systems make payment possible for any type and size of aircraft. It accepts payments in cash and credit in multiple currencies. The billing also extends to ATC services.</p><p><br></p><p>Depending on the aircraft type and weight and ground services provided, an airport can calculate the aeronautical fee and issue an invoice with a bill.&nbsp;It is calculated using the following data:</p><p><br></p><p>- Aircraft registration</p><p>- Parking time at the airport</p><p>- Airport point of departure and/or landing</p><p>- Times at the different points of entry or departure</p><p><br></p><p>The data is entered or integrated from ATC. Based on this information, the airport calculates the charges and sends the bills.</p>'
+        '<p>机场处理的每一个航班都为机场产生一定的收入，由运营飞机的航空公司支付。航空发票系统使支付任何类型和大小的飞机成为可能。它接受多种货币的现金和信用卡支付。收费也扩展到ATC服务。<p><p><br><p><p> <p>根据飞机类型、重量和提供的地面服务，机场可以计算航空费用并开具发票。&nbsp;它使用以下数据计算:<p><p><br><p><p>-飞机登记<p><p>-在机场停车时间<p><p>-机场出发或降落点<p><p>-在不同入境或出发点的时间<p><p><br><p><p>数据是从ATC输入或集成的。根据这些信息，机场计算费用并发送账单。</p>'
     },
     {
       id: 'afa7b887-8aff-45a6-86fa-7a896626e920',
-      name: 'ATC Tower Billing',
+      name: 'ATC塔计费',
       icon: 'block'
     },
     {
       id: 'd917b7d7-a5c4-479e-a366-da8d22ea8ebb',
-      name: 'Non Aeronautical revenue',
+      name: '非航空收入',
       icon: 'block'
     }
   ],
   views: [
     {
       id: 'overview',
-      name: 'Overview',
+      name: '概述',
       items: [
         {
           labelHeight: 80,
@@ -734,28 +734,28 @@ export const initialData: InitialData = {
         {
           orientation: 'Y',
           fontSize: 0.6,
-          content: 'Airside operations',
+          content: '登机区操作',
           id: 'f19b5d77-733e-48be-93a0-a0b0cae276d4',
           tile: { x: 14, y: -1 }
         },
         {
           orientation: 'X',
           fontSize: 0.6,
-          content: 'Information management',
+          content: '信息管理',
           id: 'a15c0d88-1682-4fc8-9678-62e029df4574',
           tile: { x: 0, y: 10 }
         },
         {
           orientation: 'X',
           fontSize: 0.6,
-          content: 'Terminal management',
+          content: '终端管理',
           id: 'e8ae777d-2c29-4c8e-8f61-0c63fac32d11',
           tile: { x: -12, y: 5 }
         },
         {
           orientation: 'X',
           fontSize: 0.6,
-          content: 'Passenger facilitation',
+          content: '旅客便利',
           id: '82132c7f-704e-49f1-86e7-e4f072e56779',
           tile: { x: -12, y: -11 }
         },

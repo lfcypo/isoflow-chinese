@@ -56,7 +56,7 @@ export const MainMenu = () => {
       const file = (event.target as HTMLInputElement).files?.[0];
 
       if (!file) {
-        throw new Error('No file selected');
+        throw new Error('未选择任何文件');
       }
 
       const fileReader = new FileReader();
@@ -135,25 +135,25 @@ export const MainMenu = () => {
         <Card sx={{ py: 1 }}>
           {mainMenuOptions.includes('ACTION.OPEN') && (
             <MenuItem onClick={onOpenModel} Icon={<FolderOpenIcon />}>
-              Open
+              打开
             </MenuItem>
           )}
 
           {mainMenuOptions.includes('EXPORT.JSON') && (
             <MenuItem onClick={onExportAsJSON} Icon={<ExportJsonIcon />}>
-              Export as JSON
+              导出 JSON
             </MenuItem>
           )}
 
           {mainMenuOptions.includes('EXPORT.PNG') && (
             <MenuItem onClick={onExportAsImage} Icon={<ExportImageIcon />}>
-              Export as image
+              导出图片
             </MenuItem>
           )}
 
           {mainMenuOptions.includes('ACTION.CLEAR_CANVAS') && (
             <MenuItem onClick={onClearCanvas} Icon={<DeleteOutlineIcon />}>
-              Clear the canvas
+              清空画布
             </MenuItem>
           )}
 
@@ -164,11 +164,22 @@ export const MainMenu = () => {
               {mainMenuOptions.includes('LINK.GITHUB') && (
                 <MenuItem
                   onClick={() => {
-                    return gotoUrl(`${REPOSITORY_URL}`);
+                    return gotoUrl(`https://github.com/markmanx/isoflow`);
                   }}
                   Icon={<GitHubIcon />}
                 >
-                  GitHub
+                  GitHub 源仓库
+                </MenuItem>
+              )}
+
+              {mainMenuOptions.includes('LINK.GITHUB') && (
+                <MenuItem
+                  onClick={() => {
+                    return gotoUrl(`https://github.com/lfcypo/isoflow-chinese`);
+                  }}
+                  Icon={<GitHubIcon />}
+                >
+                  GitHub 中文化仓库
                 </MenuItem>
               )}
 

@@ -40,7 +40,7 @@ export const IconSelectionControls = () => {
           <Stack spacing={2}>
             <Searchbox value={filter} onChange={setFilter} />
             <Alert severity="info">
-              You can drag and drop any item below onto the canvas.
+              您可以将下面的任何项目拖放到画布上
             </Alert>
           </Stack>
         </Section>

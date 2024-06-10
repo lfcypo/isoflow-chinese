@@ -5,9 +5,9 @@ import { DebugTools } from './DebugTools/DebugTools';
 import { ReadonlyMode } from './ReadonlyMode/ReadonlyMode';
 
 const examples = [
-  { name: 'Basic editor', component: BasicEditor },
-  { name: 'Debug tools', component: DebugTools },
-  { name: 'Read-only mode', component: ReadonlyMode }
+  { name: '编辑模式', component: BasicEditor },
+  { name: '演示模式(只读)', component: ReadonlyMode },
+  { name: '开发模式', component: DebugTools }
 ];
 
 export const Examples = () => {
